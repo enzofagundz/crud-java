@@ -17,3 +17,4 @@
 <title><c:out value="${title}" /></title>
 </head>
 <body>
+<main class="container">
