@@ -8,14 +8,13 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Produto;
+import modelo.Produto;
 import util.DbUtil;
 
 public class ProdutoDao {
-
 	private Connection conn;
 
-	public ProdutoDao() { // Construtor - Conecta com o banco qdo. instanciado
+	public ProdutoDao() {
 		conn = DbUtil.getConnection();
 	}
 
@@ -104,5 +103,4 @@ public class ProdutoDao {
 
 		return produto;
 	}
-
 }

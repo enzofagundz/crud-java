@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import dao.UsuarioDao;
-import model.Usuario;
+import modelo.Usuario;
 
 @WebServlet("/Login")
 public class LoginController extends HttpServlet {

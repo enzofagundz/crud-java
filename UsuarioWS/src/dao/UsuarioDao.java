@@ -8,13 +8,13 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Usuario;
+import modelo.Usuario;
 import util.DbUtil;
 
 public class UsuarioDao {
 	private Connection conn;
 
-	public UsuarioDao() { // Construtor - Conecta com o banco qdo. instanciado
+	public UsuarioDao() {
 		conn = DbUtil.getConnection();
 	}
 

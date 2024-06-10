@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import dao.ProdutoDao;
-import model.Produto;
+import modelo.Produto;
 
 @WebServlet("/ProdutoController")
 public class ProdutoController extends HttpServlet {
